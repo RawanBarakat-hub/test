@@ -6,6 +6,7 @@ const About = () => {
     return (
         <div>
             <p>Hello from about</p>
+            <img src="/test/assets/react.svg" alt="s d" />
             {
                 data?.map((element)=>{
                     return <div key={element.id}>
